@@ -1,0 +1,12 @@
+{
+  "name": "driversbot",
+  "version": "0.0.1",
+  "description": "A discord bot for driving simulation games using discord.js lib",
+  "main": "main.js",
+  "repository": "https://piafthebest@bitbucket.org/piafthebest/driversbot.git",
+  "author": "Hugo CANAL <contact@piafthebest.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "discordjs/discord.js"
+  }
+}
