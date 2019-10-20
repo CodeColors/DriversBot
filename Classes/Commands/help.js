@@ -8,7 +8,7 @@ module.exports = class Help extends Command {
 
   static action(message) {
     var embed = new Discord.MessageEmbed()
-      .setColor('#0099ff')
+      .setColor('#f6b93b')
       .setTitle('Some title')
       .setAuthor('Liste des commandes du bot', message.client.user.displayAvatarURL())
       .setThumbnail('https://i.imgur.com/wSTFkRM.png')

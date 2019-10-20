@@ -7,8 +7,21 @@
   "author": "Hugo CANAL <contact@piafthebest.fr>",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "discordjs/discord.js",
-    "jshint": "^2.10.2"
+    "discord.js": "github:discordjs/discord.js",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^4.0.0",
+    "jshint": "^2.10.2",
+    "lzma-native": "^4.0.5",
+    "moment": "^2.24.0",
+    "node-gyp": "^6.0.0",
+    "node-opus": "^0.3.3",
+    "opusscript": "^0.0.7",
+    "passport": "^0.4.0",
+    "passport-discord": "^0.1.3",
+    "snekfetch": "^4.0.4",
+    "youtube-audio-stream": "^0.3.2",
+    "ytdl-core": "^1.0.0",
+    "ytdl-core-discord": "^1.0.3"
   },
   "devDependencies": {}
 }
