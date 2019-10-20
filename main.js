@@ -1,19 +1,19 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 
+const Avatars = require('./Classes/Commands/avatars');
+
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on("message", msg => {
-  if (msg.content === "ping") {
-    msg.reply("Pong!");
-  }
+client.on('ready', function () {
+  client.user.setAvatar('http://transportoperator.co.uk/wp-content/uploads/2016/08/scania1.png');
 });
 
 client.on("message", msg => {
   if (msg.content === "=stopbot") {
-    msg.reply("Stopping Bot ...");
+    console.log("Stopping Bot ...");
     client.destroy();
   }
 });

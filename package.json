@@ -7,8 +7,8 @@
   "author": "Hugo CANAL <contact@piafthebest.fr>",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "discordjs/discord.js"
+    "discord.js": "discordjs/discord.js",
+    "jshint": "^2.10.2"
   },
   "devDependencies": {}
-
 }
