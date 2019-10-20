@@ -8,5 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "discord.js": "discordjs/discord.js"
-  }
+  },
+  "devDependencies": {}
+
 }
